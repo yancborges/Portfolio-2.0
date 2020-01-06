@@ -1,0 +1,119 @@
+/*
+Main page settings
+*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    /*background-image: linear-gradient(rgba(65, 34, 122, 1), rgba(128, 5, 121, 0.8));
+    background-image: linear-gradient(170deg, rgb(4, 242, 250), rgb(255, 2, 221));
+    /*background-image: linear-gradient(170deg, rgb(2, 1, 85), rgb(255, 2, 221));
+    */
+    background-color: rgb(40, 16, 56);
+    font-family: 'consolas'
+}
+
+footer {
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+}
+
+/*
+Navbar
+*/
+
+.top-nav {
+    margin-bottom: 15px;
+    padding: 30px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(255, 2, 221);
+	-moz-animation: 0 8px 6px -6px rgb(255, 2, 221);
+    box-shadow: 0 5px 60px -6px rgb(255, 2, 221);
+    text-align: center;
+    border: radius;
+}
+
+.top-nav a {
+    padding: 30px;
+    padding-bottom: 33px;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 100%;
+    color: rgb(255, 2, 221)
+}
+
+    .top-nav a:hover {
+        background-color: rgb(255, 2, 221);
+        color: #ffffff;
+        box-shadow: 0px 10px 20px 3px rgba(255, 2, 221);
+    }
+
+/*
+Blocks and text stuff
+*/
+
+.container {
+    padding: 5%;
+}
+
+p strong {
+    color: rgb(255, 2, 221);
+}
+
+.fix-img {
+    max-width: 15%;
+    position: absolute;
+    float: left;
+    left: 15px;
+    top: 10px;
+}
+
+.hamburger {
+    right: 0px;
+    display: none;
+}
+
+@media screen and (max-width: 678px){
+    #nav-itens{
+      display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+/*
+Announces settings
+*/
+
+h1 {
+    font-family: 'Power Clear';
+    margin-bottom: 35px;
+    text-shadow: 5px 5px 20px rgb(1, 217, 255);
+}
+
+/*
+Buttons
+*/
+
+.mybuttons {
+    padding: 11px;
+    margin: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 18px;
+    background-image: linear-gradient(rgb(255, 2, 221), rgb(128, 2, 100));
+    box-shadow: 0px 2px 20px 1px rgba(1, 217, 255, 0.4);
+    transition: 0.7s;
+}
+
+    .mybuttons:hover {
+        text-decoration: none;
+        color: #ffffff;
+        box-shadow: 0px 0px 30px 1px rgb(1, 217, 255);
+        background-image: linear-gradient(rgb(255, 130, 240), rgb(255, 2, 221));
+    }
+
