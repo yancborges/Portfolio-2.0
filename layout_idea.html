@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="custom.css">
 </head>
 <body id="main">
-    <nav class="top-nav">
+    <!--<nav class="top-nav">
         <div id="nav-itens">
             <img src="/img/logo1.png" id="main-logo" class="img-fluid fix-img">
             <a href="#">Home</a>
@@ -15,7 +15,23 @@
             <a href="#">Projects</a>
         </div>
         <span href="javascript:void(0);" id="hamburger" class="mybuttons hamburger" onclick="collapse()">Collapse</span>
-    </nav>
+    </nav>-->
+
+    <nav class="navbar navbar-expand-md top-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <img src="/img/logo1.png" id="main-logo" class="img-fluid fix-img">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
+            <a href="#">Projects</a>
+        </div>
+      </nav>
+    
     <div class="container">
         <div class="col-lg-4">
             <h1>Hey I'm Yan</h1>
@@ -28,10 +44,13 @@
                 I'm also very interested in the <strong>Data Science</strong>
                 area and want to work with it.
             </p>
+            <div class="row">
+                <a class="mybuttons contact" href="#">Get in touch</a>
+                <a class="mybuttons projects" href="#">My projects</a>
+            </div>
         </div>
-        <div class="row">
-            <a class="mybuttons contact" href="#">Get in touch</a>
-            <a class="mybuttons projects" href="#">My projects</a>
+        <div class="col-lg-8">
+            
         </div>
     </div>
     <footer>
