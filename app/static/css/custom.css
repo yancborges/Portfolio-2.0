@@ -66,6 +66,28 @@ Navbar
 Blocks and text stuff
 */
 
+.pill {
+    border: solid;
+    border-color: rgb(255, 2, 221);
+    border-width: 0.8px;
+    /*background-color: rgb(255, 2, 221);*/
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.pill-warn {
+    border: solid;
+    border-color: rgb(217, 255, 2);
+    border-width: 0.8px;
+    /*background-color: rgb(255, 2, 221);*/
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;   
+    font-size: 13px;
+}
+
 .border-glow-only .contact-icon {
     size: inherit;
     max-width: 8%;
@@ -194,6 +216,14 @@ p strong {
         text-decoration: none;
     }
 
+.job-block {
+    border-bottom: solid;
+    border-bottom-color: rgb(255, 2, 221);
+    border-bottom-width: 0.3px;    
+    width: 100%;
+    padding: 50px;
+}
+
 /*
 Announces settings
 */
@@ -201,6 +231,18 @@ Announces settings
 h1 {
     font-family: 'Power Clear';
     text-shadow: 0px 5px 20px rgb(1, 217, 255);
+}
+
+h2 {
+    font-family: 'Power Clear';
+    text-shadow: 0px 5px 20px rgb(255, 2, 221)
+}
+
+h6 {
+    border-bottom: solid;
+    border-bottom-color: rgb(255, 2, 221);
+    border-bottom-width: 0.3px;    
+    font-family: 'Power Clear';
 }
 
 .jsubtitle {

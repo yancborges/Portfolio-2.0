@@ -9,3 +9,11 @@ def index():
 @routes.route('/contact')
 def contact():
     return render_template("contact.html")
+
+@routes.route('/projects')
+def projects():
+    return render_template("projects.html")
+
+@routes.route('/exp')
+def experience():
+    return render_template("experience.html")
