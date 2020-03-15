@@ -10,7 +10,8 @@ body {
     /*background-image: linear-gradient(170deg, rgb(2, 1, 85), rgb(255, 2, 221));
     */
     background-color: rgb(11, 2, 19);
-    font-family: 'consolas';
+    font-family: 'Century Gothic';
+    font-size: 14px;
     overflow-x: hidden;
 }
 
@@ -54,7 +55,8 @@ Navbar
     width: 100%;
     height: 140%;
     margin-top: -3px;
-    color: rgb(255, 2, 221)
+    color: rgb(255, 2, 221);
+    font-size: 16px;
 }
 
     .top-nav a:hover {
@@ -85,7 +87,7 @@ Blocks and text stuff
     /*background-color: rgb(255, 2, 221);*/
     padding: 5px;
     border-radius: 8px;
-    color: #ffffff;   
+    color: #ffffff;
     font-size: 13px;
 }
 
@@ -230,20 +232,23 @@ Announces settings
 */
 
 h1 {
-    font-family: 'Power Clear';
+    font-family: 'Conthrax';
     text-shadow: 0px 5px 20px rgb(1, 217, 255);
+    font-size: 32px;
 }
 
 h2 {
-    font-family: 'Power Clear';
-    text-shadow: 0px 5px 20px rgb(255, 2, 221)
+    font-family: 'Conthrax';
+    text-shadow: 0px 5px 20px rgb(255, 2, 221);
+    font-size: 24px;
 }
 
 h6 {
     border-bottom: solid;
     border-bottom-color: rgb(255, 2, 221);
     border-bottom-width: 0.3px;    
-    font-family: 'Power Clear';
+    font-family: 'Conthrax';
+    font-size: 14px;
 }
 
 .jsubtitle {
