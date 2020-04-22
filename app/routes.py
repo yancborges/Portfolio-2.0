@@ -17,3 +17,9 @@ def projects():
 @routes.route('/exp')
 def experience():
     return render_template("experience.html")
+
+"""
+@routes.route('/skills')
+def skills():
+    return render_template("skills.html")
+"""

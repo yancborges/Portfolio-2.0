@@ -80,9 +80,24 @@ Blocks and text stuff
     font-size: 13px;
 }
 
+div .pill {
+    display: inline-block;
+}
+
 .pill-warn {
     border: solid;
     border-color: rgb(217, 255, 2);
+    border-width: 0.8px;
+    /*background-color: rgb(255, 2, 221);*/
+    padding: 5px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.pill-danger {
+    border: solid;
+    border-color: rgb(255, 2, 57);
     border-width: 0.8px;
     /*background-color: rgb(255, 2, 221);*/
     padding: 5px;
@@ -95,10 +110,25 @@ Blocks and text stuff
     size: inherit;
     max-width: 8%;
     top: auto;
+    border-right: solid;
+    border-right-color: rgb(255, 2, 221);
+    border-width: 1px;
+    padding: 5px;
 }
 
 .card-header .contact-icon {
     max-height: 30%;
+}
+
+.not-found {
+    max-width: 100%;
+}
+
+.center-msg {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .border-glow-only {
@@ -112,6 +142,20 @@ Blocks and text stuff
     width: 100%;
     max-height: 90px;
     padding: 3px;
+}
+
+.card-img-top {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.me {
+    size: cover;
+    position: absolute;
+    margin-top: -80px;
+    align-content: center;
+    max-width: 58.5%;
+    left: 50%;
 }
 
 .border-glow {
@@ -163,6 +207,10 @@ a {
     padding: 5%;
 }
 
+.card-text {
+    margin-left: 15px;
+}
+
 p strong {
     color: rgb(255, 2, 221);
 }
@@ -175,6 +223,12 @@ p strong {
     left: 15px;
     top: 10px;
 }
+
+.skill-logo {
+    max-width: 100px;
+    margin: 8px;
+}
+
 
 #logo {
     max-width: 17%;
@@ -194,6 +248,9 @@ p strong {
     }
     #logo2 {
         display: block;
+    }
+    .me {
+        display: none
     }
 }
 
